@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="276.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="276.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.crudhibernate.view.ControllerView">
    <children>
       <GridPane layoutX="53.0" layoutY="72.0" prefHeight="0.0" prefWidth="494.0" AnchorPane.bottomAnchor="146.0" AnchorPane.leftAnchor="53.0" AnchorPane.rightAnchor="53.0" AnchorPane.topAnchor="72.0">
         <columnConstraints>
@@ -71,7 +71,7 @@
       </GridPane>
       <ButtonBar layoutX="53.0" layoutY="192.0" prefHeight="40.0" prefWidth="304.0">
         <buttons>
-          <Button fx:id="btSalvar" mnemonicParsing="false" text="Salvar" />
+          <Button fx:id="btSalvar" mnemonicParsing="false" onAction="#onBtSalvar" text="Salvar" />
             <Button fx:id="btRemover" mnemonicParsing="false" text="Remover" />
             <Button fx:id="btBuscar" minWidth="47.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="113.0" text="Buscar" />
         </buttons>
